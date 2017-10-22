@@ -10,7 +10,7 @@ for (let i = 0; i < coloredSledPullers.length; i++) {
     
     // inject a section class="color" into the innerHTL and post the deer name
     reindeerEl.innerHTML += `
-    <section class="${post.color}">${post.name}</section>
+    <section class="${post.color}"><font color="${post.color}">${post.name}</font></section>
     `
 
 }
